@@ -1,57 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Jaisrie Marketing | Solar Installation in Sivakasi</title>
-
-<meta name="description" content="Professional solar installation company in Sivakasi. Residential, Commercial and Industrial Solar Systems.">
+<title>Jaisrie Marketing | Solar Energy Company</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<header>
-
-<div class="container nav">
-
-<img src="images/logo.png" class="logo">
-
-<ul class="nav-links">
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#calculator">Solar Savings</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-
-<button onclick="toggleLanguage()" class="lang-btn">தமிழ் / EN</button>
-
-</div>
-
-</header>
-
-
 <!-- HERO -->
 
-<section class="hero" id="home">
+<section class="hero">
 
 <div class="hero-content">
 
-<h1 class="lang-en">Save Up To 90% On Electricity Bills With Solar</h1>
+<h1>Jaisrie Marketing</h1>
 
-<h1 class="lang-ta hidden">சோலார் மூலம் மின்கட்டணத்தை 90% வரை குறைக்கலாம்</h1>
+<p>Professional Solar Installation Company</p>
 
-<p>Jaisrie Marketing – Solar Installation Experts</p>
+</div>
 
-<a href="#contact" class="btn">Get Free Quote</a>
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about">
+
+<h2>About Us</h2>
+
+<img src="logo.png" class="logo">
+
+<p>
+
+Jaisrie Marketing is a professional solar energy company based in Sivakasi, Tamil Nadu.  
+We provide residential, commercial and industrial solar installations across South Tamil Nadu.
+
+</p>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section>
+
+<h2>Our Solar Services</h2>
+
+<div class="services">
+
+<div class="service-box">
+<h3>Residential Solar</h3>
+<p>Solar solutions for homes.</p>
+</div>
+
+<div class="service-box">
+<h3>Commercial Solar</h3>
+<p>Solar solutions for offices.</p>
+</div>
+
+<div class="service-box">
+<h3>Industrial Solar</h3>
+<p>Large-scale solar projects.</p>
+</div>
 
 </div>
 
@@ -60,68 +80,25 @@
 
 <!-- COUNTERS -->
 
-<section class="counters">
+<section>
+
+<h2>Our Achievements</h2>
+
+<div class="counters">
 
 <div class="counter-box">
-<h2 class="counter" data-target="500">0</h2>
-<p>Installations</p>
+<h3 class="counter" data-target="250">0</h3>
+<p>Projects Completed</p>
 </div>
 
 <div class="counter-box">
-<h2 class="counter" data-target="15">0</h2>
-<p>Cities Served</p>
+<h3 class="counter" data-target="500">0</h3>
+<p>Happy Clients</p>
 </div>
 
 <div class="counter-box">
-<h2 class="counter" data-target="10">0</h2>
+<h3 class="counter" data-target="10">0</h3>
 <p>Years Experience</p>
-</div>
-
-</section>
-
-
-<!-- ABOUT -->
-
-<section class="about container" id="about">
-
-<img src="images/logo.png">
-
-<div>
-
-<h2>About Jaisrie Marketing</h2>
-
-<p>
-
-Jaisrie Marketing is a solar energy solutions provider based in Sivakasi, Tamil Nadu. We design and install efficient rooftop solar systems for homes, businesses and industries across South Tamil Nadu.
-
-</p>
-
-</div>
-
-</section>
-
-
-<!-- SERVICES -->
-
-<section class="services container" id="services">
-
-<h2>Solar Solutions</h2>
-
-<div class="service-grid">
-
-<div class="service">
-<h3>Residential Solar</h3>
-<p>Reduce EB bills with rooftop solar for homes.</p>
-</div>
-
-<div class="service">
-<h3>Commercial Solar</h3>
-<p>Solar solutions for shops, offices and buildings.</p>
-</div>
-
-<div class="service">
-<h3>Industrial Solar</h3>
-<p>Large scale solar power systems for factories.</p>
 </div>
 
 </div>
@@ -131,82 +108,97 @@ Jaisrie Marketing is a solar energy solutions provider based in Sivakasi, Tamil 
 
 <!-- PROJECT GALLERY -->
 
-<section class="projects container" id="projects">
+<section>
 
-<h2>Our Projects</h2>
+<h2>Solar Projects</h2>
 
 <div class="gallery">
 
-<img src="images/project1.jpg">
-<img src="images/project2.jpg">
-<img src="images/project3.jpg">
+<img src="s.jpg">
+<img src="solar2.jpg">
+<img src="solar3.jpg">
+<img src="solar4.jpg">
 
 </div>
 
 </section>
 
 
-<!-- SOLAR ROI CALCULATOR -->
+<!-- SOLAR CALCULATOR -->
 
-<section class="calculator container" id="calculator">
+<section>
 
 <h2>Solar Savings Calculator</h2>
 
-<input type="number" id="bill" placeholder="Monthly EB Bill">
+<div class="calculator">
+
+<input type="number" id="bill" placeholder="Enter Monthly EB Bill">
 
 <button onclick="calculate()">Calculate Savings</button>
 
-<p id="result"></p>
+<h3 id="result"></h3>
+
+</div>
 
 </section>
 
 
-<!-- LEAD FORM -->
+<!-- CONTACT -->
 
-<section class="contact container" id="contact">
+<section class="contact">
 
-<h2>Free Solar Consultation</h2>
+<h2>Contact Us</h2>
 
-<form id="leadForm">
+<p>Jaisrie Marketing</p>
+<p>Sivakasi, Tamil Nadu</p>
+<p>9629455664 | 9585755665</p>
+<p>jaisriemarketing@gmail.com</p>
 
-<input type="text" placeholder="Name" required>
+<div class="social-icons">
 
-<input type="email" placeholder="Email">
+<a href="#"><i class="fab fa-instagram"></i></a>
 
-<input type="tel" placeholder="Phone" required>
+<a href="#"><i class="fab fa-facebook"></i></a>
 
-<textarea placeholder="Message"></textarea>
+<a href="#"><i class="fab fa-youtube"></i></a>
 
-<button type="submit">Submit</button>
+<a href="https://wa.me/919629455664"><i class="fab fa-whatsapp"></i></a>
 
-</form>
+<a href="mailto:jaisriemarketing@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+</div>
 
 </section>
 
 
 <!-- GOOGLE MAP -->
 
-<section class="map">
-
-<iframe
-src="https://www.google.com/maps?q=Sivakasi&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="100%" height="350">
+<iframe class="map"
+src="https://maps.google.com/maps?q=sivakasi&t=&z=13&ie=UTF8&iwloc=&output=embed">
 </iframe>
 
-</section>
 
+<!-- FOOTER -->
 
 <footer>
 
-<p>Jaisrie Marketing | Sivakasi</p>
-
-<p>9629455664 | 9585755665</p>
-
-<p>jaisriemarketing@gmail.com</p>
+<p>© 2026 Jaisrie Marketing | Solar Energy Company</p>
 
 </footer>
+
+
+<!-- FLOATING WHATSAPP -->
+
+<a class="whatsapp" href="https://wa.me/919629455664">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
